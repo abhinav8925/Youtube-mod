@@ -5,7 +5,7 @@ import { DB_NAME } from "../constants.js";
 const connectDB = async()=>{
 
     try{
-        const connectionInstance = await mongoose.connect("mongodb+srv://ripu:ripu%40123@cluster1.ib0mgbc.mongodb.net");
+        const connectionInstance = await mongoose.connect("ADD YOUR URL");
         console.log(`Database Succcessfully Connected!! DB HOST: ${connectionInstance.connection.host}`);
 
     }
